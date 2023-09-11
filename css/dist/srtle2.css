@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+.container .header {
+  margin-top: 30px;
+}
+.container .header-logo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header-logo-contact {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: right;
+  color: #686767;
+}
+.container .header-btns {
+  display: flex;
+  margin-top: 13px;
+  width: 100%;
+}
+.container .header-btns a {
+  background-color: #cccccc;
+  padding: 5px 28.6px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: right;
+  color: #686767;
+  border: 0;
+  border-right: 2px solid #686767;
+}
+.container .header-btns a:hover {
+  background-color: #686767;
+  color: white;
+}
+.container .header-btns a:last-child {
+  border-right: 0;
+}
+.container .title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 0;
+  margin: 40px 0;
+}
+.container .title .col-text {
+  color: #591413;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 23px;
+  line-height: 31px;
+}
+.container .title .collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 61px;
+}
+.container .title .collection-btns p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #605e5e;
+  margin-bottom: 28px;
+}
+.container .title .collection-btns-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .title .collection-btns-cont a {
+  display: flex;
+  padding: 5px 0;
+  width: 140px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  font-weight: 350;
+  line-height: 31px;
+  align-items: center;
+  justify-content: center;
+  color: #686767;
+  border: 2px solid #686767;
+  border-right: 0;
+}
+.container .title .collection-btns-cont a:hover {
+  border: 4px solid #591413;
+  outline-offset: 4px;
+  padding: 1px 0 !important;
+  color: #591413;
+}
+.container .title .collection-btns-cont .border {
+  border: 2px solid #686767;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+.container .title .collection-btns-cont .spec-brd {
+  border-right: 2px solid #686767;
+}
+.container .title .collection-card {
+  padding: 0 25px;
+}
+.container .title .collection-card p {
+  color: #591413;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #727272;
+}
+.footer-content {
+  width: 980px;
+  margin: auto;
+  padding: 40px;
+}
+.footer-content-logos {
+  display: flex;
+  flex-direction: column;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: white;
+}
+.footer-content-logos-logo-text p {
+  color: #989898;
+  text-align: center;
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    width: 360px;
+  }
+  .container .header-logo-contact {
+    display: none;
+  }
+  .container .header-btns {
+    flex-wrap: wrap;
+  }
+  .container .header-btns a {
+    width: 50%;
+    background-color: #cccccc;
+    padding: 5px 28.6px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    color: #686767;
+    border: 0;
+    border: 1px solid #686767;
+  }
+  .container .collection-btns-cont a {
+    display: flex;
+    width: 33% !important;
+    padding: 5px 0;
+    font-size: 21px !important;
+    border: 2px solid #686767 !important;
+  }
+  .container .collection-btns-cont a:hover {
+    border: 2px solid #591413 !important;
+    z-index: 10;
+    color: #591413 !important;
+  }
+  .container .collection-card {
+    padding: 0 8px !important;
+  }
+
+  .footer-content {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 377px) and (max-width: 426px) {
+  .container {
+    width: 415px;
+  }
+  .container .header-logo-contact {
+    display: none;
+  }
+  .container .header-btns {
+    flex-wrap: wrap;
+  }
+  .container .header-btns a {
+    width: 50%;
+    background-color: #cccccc;
+    padding: 5px 28.6px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    color: #686767;
+    border: 0;
+    border: 1px solid #686767;
+  }
+  .container .collection {
+    justify-content: center;
+  }
+  .container .collection-btns-cont a {
+    display: flex;
+    width: 33% !important;
+    padding: 5px 0;
+    font-size: 21px !important;
+    border: 2px solid #686767 !important;
+  }
+  .container .collection-btns-cont a:hover {
+    border: 2px solid #591413;
+    z-index: 10;
+    color: #591413;
+  }
+  .container .collection-card {
+    padding: 0 8px !important;
+  }
+
+  .footer-content {
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 427px) and (max-width: 769px) {
+  .container {
+    width: 737px;
+  }
+  .container .header-btns {
+    flex-wrap: wrap;
+  }
+  .container .header-btns a {
+    width: 50%;
+    background-color: #cccccc;
+    padding: 5px 28.6px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    color: #686767;
+    border: 0;
+    border: 1px solid #686767;
+  }
+  .container .collection {
+    justify-content: center;
+    gap: 46px !important;
+  }
+  .container .collection-btns-cont a {
+    display: flex;
+    width: 33% !important;
+    padding: 5px 0;
+    font-size: 21px !important;
+    border: 2px solid #686767 !important;
+  }
+  .container .collection-btns-cont a:hover {
+    border: 2px solid #591413;
+    z-index: 10;
+    color: #591413;
+  }
+  .container .collection-card {
+    padding: 0 8px !important;
+  }
+
+  .footer-content {
+    width: 737px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
