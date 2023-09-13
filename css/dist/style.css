@@ -102,7 +102,7 @@
   background-color: #686767;
   color: white;
   width: 200px;
-  height: 50px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,7 +115,7 @@
   left: 10px;
   top: 13px;
 }
-.container .title .collection-card button:hover {
+.container .title .collection-card:hover > button {
   background-color: #979797;
 }
 .container .title .collection-card .sp-left {
@@ -185,8 +185,8 @@
     color: #591413 !important;
   }
   .container .collection-card button {
-    width: 152px !important;
-    height: 40px !important;
+    width: 155px !important;
+    height: 43px !important;
     font-size: 20px !important;
     left: 8px !important;
     top: 9px !important;

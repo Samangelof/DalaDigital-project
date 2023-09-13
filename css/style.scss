@@ -120,7 +120,7 @@
                     background-color: #686767;
                     color: white;
                     width: 200px;
-                    height: 50px;
+                    height: 55px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -134,7 +134,7 @@
                     top: 13px;
                 }
 
-                button:hover {
+                &:hover > button {
                     background-color: #979797;
                 }
 
@@ -231,8 +231,8 @@
 
             &-card {
                 button {
-                    width: 152px !important;
-                    height: 40px !important;
+                    width: 155px !important;
+                    height: 43px !important;
                     font-size: 20px !important;
                     left: 8px !important;
                     top: 9px !important;
